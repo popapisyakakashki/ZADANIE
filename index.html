@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Форма</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend>Информация о пользователе</legend>
+
+            <label for="text">Имя</label>
+            <input name="text" id="text" type="text" placeholder="Введите имя">
+
+            <label for="email">Электронная почта</label>
+            <input name="email" id="email" type="email">
+
+            <label for="pass">Пароль</label>
+            <input name="pass" id="pass" type="password">            
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваш пол</legend>
+            
+            <input type="radio" id="male" name="se" value="m">
+            <label for="male">Мужской</label>
+
+            <input type="radio" id="female" name="se" value="f">
+            <label for="female">Женский</label>
+        </fieldset>
+
+        <fieldset>
+            
+            <legend>Выбор продукта</legend>
+
+            <input type="checkbox" id="pizza" name="product" value="pizza">
+            <label for="pizza">Пицца</label>
+
+            <input type="checkbox" id="pasta" name="product" value="pasta">
+            <label for="pasta">Паста</label>
+
+            <input type="checkbox" id="rolls" name="product" value="rolls">
+            <label for="rolls">Роллы</label>
+        </fieldset>
+
+        <fieldset>
+            <select>
+                <option>Скидка</option>
+
+                <option>Нет скидки</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" id="submit" class="submit">
+        
+    </main>
+</body>
+</html>
